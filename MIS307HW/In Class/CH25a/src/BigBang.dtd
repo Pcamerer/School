@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE BigBang [
+<!ELEMENT BigBang (character*)>
+<!ELEMENT character (name, id)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT name language CDATA #REQUIRED>
+<!ELEMENT id (#PCDATA)>
+]>
