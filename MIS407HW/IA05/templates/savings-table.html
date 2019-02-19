@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Savings Plan</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" type="text/css" />
+</head>
+{% block body %}
+
+	<div class="savings">
+		<div class="savings-screen">
+			<div class="app-title">
+				<h1>Savings Plan - Results</h1>
+			</div>
+
+      <a href="/">Back</a>
+
+      <div class="savings-final">Final Balance: {{ final_balance }}</div>
+
+        <table class="savings-table">
+
+        <tr>
+          <th>Month</th>
+          <th>Deposit</th>
+          <th>Interest</th>
+          <th>Balance</th>
+        </tr>
+
+        {% for row in savings_table %}
+        <tr>
+          <td class="c1">{{row.month}}</td>
+          <td class="c2">{{row.deposit}}</td>
+          <td class="c3">{{row.interest}}</td>
+          <td class="c4">{{row.balance}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+
+      <a href="/">Back</a>
+
+		</div>
+	</div>
+
+{% endblock %}

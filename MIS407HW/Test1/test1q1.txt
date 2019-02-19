@@ -1,0 +1,38 @@
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04 (exp2)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/mis407f18/mis407f18-student-04
+   f2635e8..09a0741  master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> exp2
+
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04 (exp2)
+$ mkdir Test1
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04 (exp2)
+$ ls
+example/  newstuff.txt  Test1/
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04 (exp2)
+$ cd test1
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04/test1 (exp2)
+$ echo "print('Future value of 10000 at 5 percent for 10 years', 10000 * (1.004167) ** 10)" >> test1q1.py
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04/test1 (exp2)
+$ ls
+test1q1.py
+
+pcamerer@gbb1127-37 MINGW64 /t/mis407/mis407f18-student-04/test1 (exp2)
+$

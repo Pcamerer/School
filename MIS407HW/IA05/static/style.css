@@ -1,0 +1,48 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+body {
+}
+.savings {
+}
+.savings-screen {
+}
+
+.app-title {
+}
+
+.savings-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: right;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.savings-link {
+  font-size: 12px;
+}
+
+.savings-final {
+  text-align: center;
+}

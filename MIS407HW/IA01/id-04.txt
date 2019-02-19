@@ -1,0 +1,9 @@
+vl1520-pool-02:ia01-ex1 Preston$ python encrypt.py
+Enter key (26 letters): nopqrstuvwxyzabcdefghijklm
+Message to Encrypt: this is a test of our first homework assignment over the python language
+Encrypted Text: guvf vf n grfg bs bhe svefg ubzrjbex nffvtazrag bire gur r clguba ynathntr
+vl1520-pool-02:ia01-ex1 Preston$ python encrypt.py
+Enter key (26 letters): nopqrstuvwxyzabcdefghijklm
+Message to Encrypt: guvf vf n grfg bs bhe svefg ubzrjbex nffvtazrag bire gur r clguba ynathntr
+Encrypted Text: this is a test of our first homework assignment over the e python language
+vl1520-pool-02:ia01-ex1 Preston$ 

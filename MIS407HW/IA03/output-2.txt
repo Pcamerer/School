@@ -1,0 +1,9 @@
+Preston@PRESTONS-PC MINGW64 ~/Documents/School/MIS407/mis407f18-student-04/IA03 (master)
+$ python ia03-02.py
+Enter file name: Iowa_Liquor_Sales-2017.csv
+Top 5 counties alcohol sales by volume:
+1.  Johnson: 1212556.5300000138
+2.  Woodbury: 709832.0799999835
+3.  Dubuque: 647425.5499999892
+4.  Story: 646085.4299999807
+5.  : 426229.10000000155

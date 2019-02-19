@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Savings Plan</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" type="text/css" />
+</head>
+{% block body %}
+
+<form action="/compute" method="POST">
+	<div class="savings">
+		<div class="savings-screen">
+			<div class="app-title">
+				<h1>Savings Plan</h1>
+			</div>
+
+			<div class="savings-form">
+        <div class="control-group">
+          <label class="years-field-label" for="years">Years:</label>
+				  <input class="years-field" value="" placeholder="0" name="years"/>
+				</div>
+
+        <div class="control-group">
+          <label for="initial_balance">Initial Balance:</label>
+      	  <input value="" name="initial_balance"/>
+         </div>
+
+				<div class="control-group">
+				  <label class="rate-field-label" for="rate">Rate:</label>
+          <input type="text" class="rate-field" value="" placeholder="0.0" name="rate"/>
+				</div>
+
+
+        <div class="control-group">
+          <label class="monthly_deposit-field-label" for="monthly_deposit">Monthly Deposit:</label>
+				  <input class="monthly_deposit-field" value="" placeholder="0.0" name="monthly_deposit"/>
+				</div>
+
+        <input type="submit" value="Compute" class="btn btn-primary btn-large btn-block" >
+			  <br/>
+			</div>
+		</div>
+	</div>
+</form>
+
+{% endblock %}
